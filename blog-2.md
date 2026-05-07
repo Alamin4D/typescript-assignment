@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Generics TypeScript-এর একটি powerful feature, যা আমাদেরকে reusable এবং strongly typed function/component তৈরি করতে সাহায্য করে।
+Generics are a powerful feature of TypeScript that help us create reusable and strongly typed functions and components.
 
 ---
 
 ## Problem Without Generics
 
-Generics ছাড়া আমাদের আলাদা আলাদা function লিখতে হয় বিভিন্ন data type এর জন্য, যা code duplication তৈরি করে।
+Without generics, we need to write separate functions for different data types, which leads to code duplication.
 
 ### Example:
 

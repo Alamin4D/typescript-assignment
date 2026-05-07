@@ -7,14 +7,14 @@ It focuses on **type safety, OOP principles, generics, interfaces, and data mani
 
 ---
 
-## 📂 Project Structure
+## 📁 File Structure
+
+```text
 ├── solutions.ts
 ├── blog-1.md
 ├── blog-2.md
 └── README.md
-
-
----
+```
 
 ## 💻 Coding Problems Covered
 
@@ -55,7 +55,7 @@ Finds common elements between two arrays using filtering logic.
 
 ## 📝 Blog Topics
 
-### ✍️ Blog 2: Why any is called a “type safety hole” and why unknown is safer
+### ✍️ Blog 1: Why any is called a “type safety hole” and why unknown is safer
  any disables TypeScript’s type checking. Once a value is any, you can do anything with it, and TypeScript won’t warn you—even if it’s wrong. This removes type safety completely and can easily cause runtime errors.
 
 On the other hand, unknown also represents an unknown value, but TypeScript forces you to check its type before using it. You cannot directly perform operations on it without validation. This keeps type safety intact and prevents unsafe usage.

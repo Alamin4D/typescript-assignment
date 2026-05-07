@@ -2,13 +2,13 @@
 
 ## Introduction
 
-TypeScript-এর মূল উদ্দেশ্য হলো type safety নিশ্চিত করা। কিন্তু `any` টাইপ এই safety system কে bypass করে ফেলে, যার কারণে এটিকে “type safety hole” বলা হয়। অন্যদিকে `unknown` টাইপ নিরাপদভাবে dynamic data handle করতে সাহায্য করে।
+The main purpose of TypeScript is to ensure type safety. However, the any type bypasses this safety system, which is why it is called a “type safety hole.” On the other hand, the unknown type helps handle dynamic data safely.
 
 ---
 
 ## Why `any` is Dangerous
 
-`any` ব্যবহার করলে TypeScript কোনো ধরনের type checking করে না। এতে runtime error হওয়ার সম্ভাবনা অনেক বেড়ে যায়।
+When using any, TypeScript does not perform any type checking. As a result, the chances of runtime errors increase significantly.
 
 ### Example:
 
@@ -16,4 +16,4 @@ TypeScript-এর মূল উদ্দেশ্য হলো type safety ন�
 let data: any;
 
 data = "Hello";
-data.toFixed(); // ❌ runtime error (string এ toFixed নেই)
+data.toFixed(); // ❌ runtime error (toFixed does not exist on the string type)
