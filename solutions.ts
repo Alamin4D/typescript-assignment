@@ -82,4 +82,4 @@ function getIntersection(arr1: number[], arr2: number[]): number[] {
     return arr1.filter(num => arr2.includes(num));
 }
 
-console.log(first)
+// console.log(first)
