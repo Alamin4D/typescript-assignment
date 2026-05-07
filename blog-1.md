@@ -1,4 +1,4 @@
-# 🚨 Why `any` is a Type Safety Hole and Why `unknown` is Safer in TypeScript
+# Why `any` is a Type Safety Hole and Why `unknown` is Safer in TypeScript
 
 ## 📌 Introduction
 
